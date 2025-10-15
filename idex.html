@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Planos de Saúde Empresariais e Individuais em SP | Saúde com Mais Benefícios</title>
+    <meta name="description" content="Compare e contrate planos de saúde empresariais (PJ) e individuais (PF) em São Paulo. Atendimento rápido, ampla rede credenciada e zero burocracia. Fale com um especialista.">
+    <meta name="keywords" content="plano de saúde, convênio médico, plano empresarial, plano individual, são paulo, corretora de saúde">
+    
+    <!-- Favicon (placeholder) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💙</text></svg>">
+
+    <!-- Google Fonts: Poppins & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- import css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Custom Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                        'display': ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: {
+                            DEFAULT: '#1E88E5', // Azul
+                            dark: '#1565C0',
+                        },
+                        secondary: {
+                            DEFAULT: '#2BB673', // Verde
+                            dark: '#1E8449',
+                        },
+                        neutral: {
+                           '900': '#101828',
+                           '700': '#344054',
+                           '500': '#667085',
+                           '200': '#EAECF0',
+                           '100': '#F2F4F7',
+                           '50': '#F9FAFB',
+                           'white': '#FFFFFF'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- JSON-LD for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Saúde com Mais Benefícios",
+      "url": "https://www.saudecommaisbeneficios.com.br",
+      "logo": "https://www.saudecommaisbeneficios.com.br/logo.svg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-11-91234-5678",
+        "contactType": "customer service"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Paulista",
+        "addressLocality": "São Paulo",
+        "addressRegion": "SP",
+        "postalCode": "01310-000",
+        "addressCountry": "BR"
+      }
+    }
+    </script>
+</head>
+<body class="bg-neutral-white text-neutral-500 font-sans antialiased">
+
+    <!-- ===== Header ===== -->
+    <header id="header" class="bg-neutral-white/80 backdrop-blur-lg fixed top-0 left-0 right-0 z-50 border-b border-neutral-200">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <a href="#" class="flex items-center space-x-2" aria-label="Página inicial de Saúde com Mais Benefícios">
+                     <svg class="h-8 w-auto text-primary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                    <span class="font-display text-xl font-semibold text-neutral-900">Saúde+</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#benefits" class="text-neutral-500 hover:text-primary transition-colors">Benefícios</a>
+                    <a href="#testimonials" class="text-neutral-500 hover:text-primary transition-colors">Depoimentos</a>
+                    <a href="#sobrenos" class="text-neutral-500 hover:text-primary transition-colors">Sobre Nós</a>
+                    <a href="#plans" class="text-neutral-500 hover:text-primary transition-colors">Planos</a>
+                    <a href="#contact" class="text-neutral-500 hover:text-primary transition-colors">Contato</a>
+                    <a href="#faq" class="text-neutral-500 hover:text-primary transition-colors">FAQ</a>
+                </nav>
+
+                <!-- Header CTA -->
+                <div class="hidden md:block">
+                    <a href="#contact" class="bg-primary text-neutral-white px-5 py-2.5 rounded-lg text-sm font-semibold shadow-sm hover:bg-primary-dark transition-all duration-200 ease-in-out">Falar com especialista</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" aria-label="Abrir menu" class="text-neutral-900">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-neutral-white border-t border-neutral-200">
+            <nav class="flex flex-col space-y-4 p-4">
+                <a href="#benefits" class="text-neutral-500 hover:text-primary transition-colors">Benefícios</a>
+                <a href="#testimonials" class="text-neutral-500 hover:text-primary transition-colors">Depoimentos</a>
+                <a href="#sobrenos" class="text-neutral-500 hover:text-primary transition-colors">Sobre Nós</a>
+                <a href="#plans" class="text-neutral-500 hover:text-primary transition-colors">Planos</a>
+                <a href="#contact" class="text-neutral-500 hover:text-primary transition-colors">Contato</a>
+                <a href="#faq" class="text-neutral-500 hover:text-primary transition-colors">FAQ</a>
+                <a href="#contact" class="bg-primary text-neutral-white text-center w-full mt-4 px-5 py-2.5 rounded-lg text-sm font-semibold shadow-sm hover:bg-primary-dark transition-all">Falar com especialista</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===== Hero Section ===== -->
+        <section id="hero" class="pt-32 pb-20 bg-neutral-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="fade-in-up">
+                        <div class="inline-flex items-center bg-secondary/10 text-secondary font-semibold px-3 py-1 rounded-full text-sm mb-4">
+                           <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 16 16"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/></svg>
+                            Atendimento rápido em até 15 min
+                        </div>
+                        <h1 class="font-display text-4xl md:text-5xl font-semibold text-neutral-900 !leading-tight">
+                            Saúde com Mais Benefícios: o plano <span class="text-primary">certo para você e sua empresa</span>.
+                        </h1>
+                        <p class="mt-4 text-lg text-neutral-500">
+                            Compare coberturas, tire dúvidas com um especialista e contrate sem burocracia.
+                        </p>
+                        <ul class="mt-6 space-y-2 text-neutral-500">
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-primary mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                Atendimento em até 15 min
+                            </li>
+                             <li class="flex items-center">
+                                <svg class="w-5 h-5 text-primary mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                Rede ampla e qualificada
+                            </li>
+                             <li class="flex items-center">
+                                <svg class="w-5 h-5 text-primary mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                Preços competitivos
+                            </li>
+                        </ul>
+                        <div class="mt-8">
+                            <a href="#contact" class="bg-secondary text-neutral-white px-8 py-4 rounded-lg text-lg font-semibold shadow-lg hover:bg-secondary-dark transform hover:-translate-y-1 transition-all duration-300 ease-in-out">
+                                Quero comparar planos
+                            </a>
+                        </div>
+                    </div>
+                    <div class="fade-in-up" style="transition-delay: 200ms;">
+                        <!-- Figma: Substituir este bloco pela ilustração ou foto da campanha -->
+                        <img 
+                            src="https://img.freepik.com/premium-photo/happy-doctor-patient-blood-pressure-appointment-checkup-visit-hospital-medical-woman-surgeon-nurse-helping-man-customer-client-monitoring-heart-rate-healthcare-clinic_590464-238786.jpg" 
+                            alt="Ilustração de uma especialista em saúde sorrindo e atendendo um cliente" 
+                            class="rounded-lg shadow-xl w-full h-auto object-cover"
+                            loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Benefits Section ===== -->
+        <section id="benefits" class="py-20">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="font-display text-3xl font-semibold text-neutral-900">Vantagens que <span class="text-primary">cuidam de você</span></h2>
+                <p class="mt-2 text-lg max-w-2xl mx-auto text-neutral-500">Oferecemos mais do que um plano de saúde, entregamos tranquilidade e suporte completo.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 text-left">
+                    <!-- Benefício 1 -->
+                    <div class="bg-neutral-50 p-6 rounded-lg border border-neutral-200">
+                        <div class="bg-primary/10 text-primary w-12 h-12 rounded-lg flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        </div>
+                        <h3 class="font-display text-xl font-semibold text-neutral-900 mt-4">Economia Real</h3>
+                        <p class="mt-1 text-neutral-500">Nossas parcerias garantem os melhores preços, sem abrir mão da qualidade.</p>
+                    </div>
+                    <!-- Benefício 2 -->
+                    <div class="bg-neutral-50 p-6 rounded-lg border border-neutral-200">
+                         <div class="bg-primary/10 text-primary w-12 h-12 rounded-lg flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.3.05-3.05-.64-.75-1.94-1.02-3.05-.55S4.5 16.5 4.5 16.5z"></path><path d="M17.5 7.5c1.5-1.26 2-5 2-5s-3.74.5-5 2c-.71.84-.7 2.3-.05 3.05.64.75 1.94 1.02 3.05.55S17.5 7.5 17.5 7.5z"></path><path d="M19 15a1.5 1.5 0 0 1-1.25 1.25c-1.26.5-5 2-5 2s-.5-3.74 2-5c.84-.71 2.3-.7 3.05-.05.75.64 1.02 1.94.55 3.05S19 15 19 15z"></path><path d="M5 9a1.5 1.5 0 0 1 1.25-1.25c1.26-.5 5-2 5-2s.5 3.74-2 5c-.84.71-2.3.7-3.05.05-.75-.64-1.02-1.94-.55-3.05S5 9 5 9z"></path></svg>
+                        </div>
+                        <h3 class="font-display text-xl font-semibold text-neutral-900 mt-4">Rede Ampla</h3>
+                        <p class="mt-1 text-neutral-500">Acesso aos melhores hospitais, laboratórios e clínicas perto de você.</p>
+                    </div>
+                    <!-- Benefício 3 -->
+                    <div class="bg-neutral-50 p-6 rounded-lg border border-neutral-200">
+                         <div class="bg-primary/10 text-primary w-12 h-12 rounded-lg flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        </div>
+                        <h3 class="font-display text-xl font-semibold text-neutral-900 mt-4">Sem Burocracia</h3>
+                        <p class="mt-1 text-neutral-500">Processo de cotação e contratação simplificado, 100% digital e rápido.</p>
+                    </div>
+                    <!-- Benefício 4 -->
+                    <div class="bg-neutral-50 p-6 rounded-lg border border-neutral-200">
+                         <div class="bg-primary/10 text-primary w-12 h-12 rounded-lg flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                        </div>
+                        <h3 class="font-display text-xl font-semibold text-neutral-900 mt-4">Suporte Humano</h3>
+                        <p class="mt-1 text-neutral-500">Nossa equipe está pronta para ajudar em todas as etapas, do início ao pós-venda.</p>
+                    </div>
+                    <!-- Benefício 5 -->
+                    <div class="bg-neutral-50 p-6 rounded-lg border border-neutral-200">
+                         <div class="bg-primary/10 text-primary w-12 h-12 rounded-lg flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><polyline points="17 11 19 13 23 9"></polyline></svg>
+                        </div>
+                        <h3 class="font-display text-xl font-semibold text-neutral-900 mt-4">Planos PF e PJ</h3>
+                        <p class="mt-1 text-neutral-500">Soluções ideais para você, sua família ou para os colaboradores da sua empresa.</p>
+                    </div>
+                    <!-- Benefício 6 -->
+                    <div class="bg-neutral-50 p-6 rounded-lg border border-neutral-200">
+                         <div class="bg-primary/10 text-primary w-12 h-12 rounded-lg flex items-center justify-center">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        </div>
+                        <h3 class="font-display text-xl font-semibold text-neutral-900 mt-4">Contratação Ágil</h3>
+                        <p class="mt-1 text-neutral-500">Após a escolha, a emissão do seu contrato é feita de forma rápida e segura.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== About Us Section ===== -->
+        <section id="sobrenos" class="py-20 bg-neutral-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="fade-in-up">
+                        <!-- Figma: Substituir este bloco pela foto da equipe ou escritório -->
+                        <img 
+                            src="https://img.freepik.com/premium-photo/healthcare-doctors-hands-together-hospital-support-excited-ready-surgery-team-nurse-circle-lobby-job-excellence-collaboration-diversity-community-synergy_590464-471371.jpg" 
+                            alt="Foto da equipe de especialistas em saúde da Saúde com Mais Benefícios" 
+                            class="rounded-lg shadow-xl w-full h-auto object-cover"
+                            loading="lazy">
+                    </div>
+                    <div class="fade-in-up" style="transition-delay: 200ms;">
+                        <h2 class="font-display text-3xl font-semibold text-neutral-900">Sobre a <span class="text-primary">Saúde com Mais Benefícios</span></h2>
+                        <p class="mt-4 text-neutral-500">Fundada em 2010, a Saúde com Mais Benefícios nasceu do desejo de transformar a experiência de contratação de planos de saúde no Brasil. Com uma equipe dedicada e apaixonada pelo que faz, oferecemos soluções personalizadas para indivíduos e empresas, sempre priorizando o atendimento humano e a transparência.</p>
+                        <p class="mt-4 text-neutral-500">Nossa missão é facilitar o acesso a planos de saúde de qualidade, ajudando nossos clientes a encontrar a melhor cobertura para suas necessidades, com preços justos e sem burocracia. Acreditamos que todos merecem cuidado e atenção, e é isso que nos motiva todos os dias.</p>
+                        <p class="mt-4 text-neutral-500">Com parcerias sólidas com as principais operadoras do mercado, garantimos uma ampla rede credenciada e condições exclusivas. Seja você um profissional autônomo, uma família ou uma empresa, estamos aqui para oferecer o suporte que você precisa para cuidar do seu bem mais precioso: sua saúde.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Testimonials Section ===== -->
+        <section id="testimonials" class="pt-5 pb-20 bg-neutral-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="font-display text-3xl font-semibold text-neutral-900">Quem confia, recomenda</h2>
+                <p class="mt-2 text-lg max-w-2xl mx-auto text-neutral-500">Veja o que nossos clientes dizem sobre a experiência com a Saúde com Mais Benefícios.</p>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12 text-left">
+                    <!-- Depoimento 1 (PJ) -->
+                    <div class="bg-neutral-white p-8 rounded-lg shadow-sm">
+                        <div class="text-yellow-400 text-xl">★★★★★</div>
+                        <blockquote class="mt-4 text-neutral-700">
+                            "Com a ajuda da consultoria, reduzimos 18% do custo do plano de saúde da empresa sem perder qualidade na cobertura. O suporte foi essencial para a troca."
+                        </blockquote>
+                        <div class="mt-6">
+                            <p class="font-semibold text-neutral-900">Juliana Martins</p>
+                            <p class="text-sm text-neutral-500">Diretora de RH, Tech Inova Ltda.</p>
+                        </div>
+                    </div>
+                    <!-- Depoimento 2 (PF) -->
+                    <div class="bg-neutral-white p-8 rounded-lg shadow-sm">
+                        <div class="text-yellow-400 text-xl">★★★★★</div>
+                        <blockquote class="mt-4 text-neutral-700">
+                            "Fui muito bem atendido do início ao fim. Me explicaram todas as diferenças entre os planos e encontrei a opção perfeita para minha família. Recomendo!"
+                        </blockquote>
+                        <div class="mt-6">
+                            <p class="font-semibold text-neutral-900">Carlos Alberto Souza</p>
+                            <p class="text-sm text-neutral-500">Engenheiro Civil</p>
+                        </div>
+                    </div>
+                    <!-- Depoimento 3 (PF) -->
+                    <div class="bg-neutral-white p-8 rounded-lg shadow-sm">
+                        <div class="text-yellow-400 text-xl">★★★★★</div>
+                        <blockquote class="mt-4 text-neutral-700">
+                           "O processo foi incrivelmente rápido e sem complicação. Em menos de 24 horas eu já estava com o contrato do meu novo plano em mãos. Excelente serviço."
+                        </blockquote>
+                        <div class="mt-6">
+                            <p class="font-semibold text-neutral-900">Mariana Ferreira</p>
+                            <p class="text-sm text-neutral-500">Designer Freelancer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ===== Plans Section ===== -->
+        <section id="plans" class="py-20">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="font-display text-3xl font-semibold text-neutral-900">Planos para cada necessidade</h2>
+                <p class="mt-2 text-lg max-w-2xl mx-auto text-neutral-500">Seja para sua empresa ou para você, temos a solução certa com as melhores condições.</p>
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <!-- Plano Empresarial -->
+                    <div class="border border-neutral-200 rounded-lg p-8 text-left hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <span class="font-semibold text-primary">Para sua Empresa</span>
+                        <h3 class="font-display text-2xl font-semibold text-neutral-900 mt-2">Plano Empresarial (PJ)</h3>
+                        <ul class="mt-4 space-y-3 text-neutral-500">
+                            <li class="flex items-start"><span class="text-secondary mr-2 mt-1">✔</span><span>Condições especiais a partir de 2 vidas.</span></li>
+                            <li class="flex items-start"><span class="text-secondary mr-2 mt-1">✔</span><span>Redução de custos e gestão simplificada.</span></li>
+                            <li class="flex items-start"><span class="text-secondary mr-2 mt-1">✔</span><span>Atraia e retenha talentos com um ótimo benefício.</span></li>
+                        </ul>
+                        <a href="#contact" class="mt-6 inline-block w-full text-center bg-primary/10 text-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors">Ver detalhes</a>
+                    </div>
+                    <!-- Plano Individual -->
+                    <div class="border border-neutral-200 rounded-lg p-8 text-left hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <span class="font-semibold text-secondary">Para Você e Família</span>
+                        <h3 class="font-display text-2xl font-semibold text-neutral-900 mt-2">Plano Individual (PF)</h3>
+                         <ul class="mt-4 space-y-3 text-neutral-500">
+                            <li class="flex items-start"><span class="text-secondary mr-2 mt-1">✔</span><span>Opções por adesão com excelente custo-benefício.</span></li>
+                            <li class="flex items-start"><span class="text-secondary mr-2 mt-1">✔</span><span>Ampla variedade de operadoras e hospitais.</span></li>
+                            <li class="flex items-start"><span class="text-secondary mr-2 mt-1">✔</span><span>Contratação fácil e consultoria personalizada.</span></li>
+                        </ul>
+                        <a href="#contact" class="mt-6 inline-block w-full text-center bg-secondary/10 text-secondary px-6 py-3 rounded-lg font-semibold hover:bg-secondary hover:text-white transition-colors">Ver detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Contact Form Section ===== -->
+        <section id="contact" class="py-20 bg-neutral-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-xl mx-auto">
+                    <div class="text-center">
+                        <h2 class="font-display text-3xl font-semibold text-neutral-900">Receba uma proposta personalizada</h2>
+                        <p class="mt-2 text-lg text-neutral-500">Preencha seus dados e um de nossos especialistas entrará em contato em minutos.</p>
+                    </div>
+                    <div id="form-container" class="mt-8 bg-neutral-white p-8 rounded-lg shadow-md">
+                        <form id="lead-form">
+                            <div class="space-y-6">
+                                <div>
+                                    <label for="name" class="block text-sm font-medium text-neutral-700">Nome completo</label>
+                                    <input type="text" id="name" name="name" required class="mt-1 block w-full px-3 py-2 border border-neutral-200 rounded-lg shadow-sm focus:outline-none focus:ring-primary focus:border-primary">
+                                </div>
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-neutral-700">E-mail</label>
+                                    <input type="email" id="email" name="email" required class="mt-1 block w-full px-3 py-2 border border-neutral-200 rounded-lg shadow-sm focus:outline-none focus:ring-primary focus:border-primary">
+                                </div>
+                                <div>
+                                    <label for="phone" class="block text-sm font-medium text-neutral-700">Telefone / WhatsApp</label>
+                                    <input type="tel" id="phone" name="phone" required placeholder="(XX) XXXXX-XXXX" class="mt-1 block w-full px-3 py-2 border border-neutral-200 rounded-lg shadow-sm focus:outline-none focus:ring-primary focus:border-primary">
+                                </div>
+                                <div>
+                                    <label for="plan_type" class="block text-sm font-medium text-neutral-700">Tipo de plano</label>
+                                    <select id="plan_type" name="plan_type" required class="mt-1 block w-full px-3 py-2 border border-neutral-200 bg-white rounded-lg shadow-sm focus:outline-none focus:ring-primary focus:border-primary">
+                                        <option value="">Selecione...</option>
+                                        <option value="pf">Individual / Familiar (PF)</option>
+                                        <option value="pj">Empresarial (PJ)</option>
+                                    </select>
+                                </div>
+                                <div id="vidas-container" class="hidden">
+                                    <label for="vidas" class="block text-sm font-medium text-neutral-700">Quantidade de vidas (opcional)</label>
+                                    <input type="number" id="vidas" name="vidas" min="2" placeholder="Ex: 5" class="mt-1 block w-full px-3 py-2 border border-neutral-200 rounded-lg shadow-sm focus:outline-none focus:ring-primary focus:border-primary">
+                                </div>
+                                <div class="flex items-start">
+                                    <input id="lgpd" name="lgpd" type="checkbox" required class="h-4 w-4 text-primary focus:ring-primary border-neutral-200 rounded mt-0.5">
+                                    <label for="lgpd" class="ml-3 block text-sm text-neutral-500">
+                                        Concordo em receber contato de um especialista e propostas comerciais, conforme a <a href="#" class="underline">Política de Privacidade</a> e a LGPD.
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mt-8">
+                                <button type="submit" class="w-full bg-secondary text-white py-3 px-6 border border-transparent rounded-lg shadow-sm text-base font-medium hover:bg-secondary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary transition-all">
+                                    Receber cotação grátis
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                     <div id="success-message" class="hidden mt-8 bg-green-100 border-l-4 border-green-500 text-green-700 p-4 rounded-lg" role="alert">
+                        <p class="font-bold">Obrigado!</p>
+                        <p>Sua solicitação foi enviada. Em breve um de nossos especialistas entrará em contato.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FAQ Section ===== -->
+        <section id="faq" class="py-20">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-3xl mx-auto text-center">
+                    <h2 class="font-display text-3xl font-semibold text-neutral-900">Dúvidas Frequentes</h2>
+                    <p class="mt-2 text-lg text-neutral-500">Respostas para as perguntas mais comuns sobre nossos serviços.</p>
+                </div>
+                <div class="mt-12 max-w-3xl mx-auto space-y-6 text-left">
+                    <div class="border-b border-neutral-200 pb-4">
+                        <h3 class="font-semibold text-lg text-neutral-900">Qual a vantagem de contratar um plano PJ?</h3>
+                        <p class="mt-2 text-neutral-500">Planos empresariais (PJ) geralmente oferecem um custo por vida significativamente menor em comparação aos planos individuais, além de possibilitarem a inclusão de dependentes e agregados sob as mesmas condições vantajosas.</p>
+                    </div>
+                     <div class="border-b border-neutral-200 pb-4">
+                        <h3 class="font-semibold text-lg text-neutral-900">Posso contratar um plano PJ com meu MEI?</h3>
+                        <p class="mt-2 text-neutral-500">Sim! A maioria das operadoras aceita a contratação de planos de saúde via MEI (Microempreendedor Individual), geralmente com um mínimo de 1 ou 2 vidas (incluindo o titular). É uma ótima forma de acessar os benefícios de um plano PJ.</p>
+                    </div>
+                     <div class="border-b border-neutral-200 pb-4">
+                        <h3 class="font-semibold text-lg text-neutral-900">O que é carência no plano de saúde?</h3>
+                        <p class="mt-2 text-neutral-500">Carência é o período que você precisa esperar após a contratação para poder utilizar determinados serviços do plano. A ANS regula os prazos máximos, mas podemos negociar a redução ou isenção de carências, especialmente em planos empresariais.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg text-neutral-900">Como funciona a consultoria de vocês?</h3>
+                        <p class="mt-2 text-neutral-500">Nossa consultoria é 100% gratuita para você. Entendemos seu perfil e necessidades, comparamos as melhores opções do mercado e apresentamos as propostas mais adequadas, auxiliando em todo o processo de contratação sem custo adicional.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- ===== Footer ===== -->
+    <footer class="bg-neutral-900 text-neutral-200">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                     <a href="#" class="flex items-center space-x-2" aria-label="Página inicial de Saúde com Mais Benefícios">
+                        <svg class="h-8 w-auto text-primary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                        <span class="font-display text-xl font-semibold text-white">Saúde com Mais Benefícios</span>
+                    </a>
+                    <p class="mt-4 text-neutral-500">Sua parceira em saúde e bem-estar.</p>
+                    <p class="mt-2 text-sm text-neutral-500">CNPJ: 00.000.000/0001-00</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-white">Contato</h4>
+                    <ul class="mt-4 space-y-2 text-neutral-500">
+                        <li>Av. Paulista, 1000 - São Paulo, SP</li>
+                        <li><a href="mailto:contato@saudemais.com.br" class="hover:text-primary">contato@saudemais.com.br</a></li>
+                        <li><a href="tel:+5511912345678" class="hover:text-primary">(11) 91234-5678</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-white">Links Úteis</h4>
+                    <ul class="mt-4 space-y-2 text-neutral-500">
+                        <li><a href="#" class="hover:text-primary">Sobre Nós</a></li>
+                        <li><a href="#" class="hover:text-primary">Política de Privacidade</a></li>
+                        <li><a href="#" class="hover:text-primary">Termos de Uso</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-neutral-700 text-center text-sm text-neutral-500">
+                <p>&copy; 2024 Saúde com Mais Benefícios. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://api.whatsapp.com/send?phone=5511912345678&text=Olá!%20Gostaria%20de%20uma%20cotação%20de%20plano%20de%20saúde."
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Fale conosco pelo WhatsApp"
+       class="fixed bottom-20 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transform hover:scale-110 transition-all z-40">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.371-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01s-.521.074-.792.372c-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+    </a>
+
+    <!-- Sticky Mobile CTA Bar -->
+    <div class="md:hidden fixed bottom-0 left-0 right-0 bg-neutral-white p-3 border-t border-neutral-200 shadow-[0_-2px_10px_rgba(0,0,0,0.05)] z-40">
+        <a href="#contact" class="w-full block text-center bg-secondary text-white py-3 px-4 rounded-lg font-semibold hover:bg-secondary-dark transition-colors">
+            Fazer Cotação Grátis
+        </a>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
