@@ -1,0 +1,264 @@
+========================================
+COPY — Landing "Saúde com Mais Benefícios"
+Versão: 1.0 (pt-BR)
+========================================
+
+[ META / SEO ]
+- Meta Title (≤60): Planos de Saúde PF e PJ em SP | Saúde com Mais Benefícios
+- Meta Description (≤155): Compare planos de saúde individuais e empresariais. Atendimento humano, proposta personalizada e contratação sem burocracia. Fale com um especialista agora.
+- Palavras-chave: planos de saúde SP, plano empresarial, plano individual, corretora de benefícios, comparação de planos
+- OG Title: Saúde com Mais Benefícios — PF e PJ
+- OG Description: Compare coberturas e receba uma proposta personalizada em minutos. Atendimento humano e sem burocracia.
+- OG Image alt: Pessoas sendo atendidas por consultor de saúde, com expressão acolhedora.
+
+========================================
+HEADER
+========================================
+- Logo: [NOME DA EMPRESA]
+- Menu: Benefícios | Depoimentos | Planos | Contato
+- CTA Header: Falar com especialista
+
+========================================
+HERO
+========================================
+Headline (padrão):
+Saúde com Mais Benefícios
+
+Subheadline (padrão):
+Compare coberturas, fale com um especialista e contrate sem burocracia.
+
+Bullets (3):
+• Atendimento em até 15 min
+• Rede ampla
+• Preços competitivos
+
+CTA primário:
+Quero comparar planos
+
+Selo/Trust badge:
+Atendimento em até 15 min
+
+Observação menor (opcional):
+Sem custo para comparar. Sem compromisso.
+
+[A/B TEST — HERO]
+A) Headline curta: O plano certo para você e sua empresa
+B) Headline valor: Mais economia, mesma qualidade de rede
+C) Subheadline variação: Receba uma proposta personalizada hoje mesmo.
+
+========================================
+SEÇÃO — BENEFÍCIOS (6 cartões)
+========================================
+1. Título: Economia real
+   Linha de apoio: Planos sob medida para o seu perfil e orçamento.
+
+2. Título: Rede ampla
+   Linha de apoio: Hospitais e laboratórios de referência na sua região.
+
+3. Título: Zero burocracia
+   Linha de apoio: Cuidamos de toda a papelada para você.
+
+4. Título: Suporte humano
+   Linha de apoio: Consultor dedicado no WhatsApp até a contratação.
+
+5. Título: PF e PJ
+   Linha de apoio: Opções para pessoa física e para empresas de todos os portes.
+
+6. Título: Contratação ágil
+   Linha de apoio: Proposta personalizada no mesmo dia.
+
+[A/B TEST — BENEFÍCIO 1]
+- Alternativa: Pague menos, mantenha a qualidade
+- Apoio: Otimizamos custo sem perder a rede que você precisa.
+
+========================================
+SEÇÃO — PROVA SOCIAL (DEPOIMENTOS)
+========================================
+Depoimento 1 (PF):
+“Processo transparente e rápido. Em menos de 24h eu já sabia o melhor plano.”
+— Ana P., São Paulo (PF) ★★★★★
+
+Depoimento 2 (PJ):
+“Reduzimos 18% dos custos mantendo a mesma rede. Recomendo.”
+— Marcos R., RH | Tech (PJ) ★★★★★
+
+Depoimento 3 (PF):
+“Atendimento no WhatsApp impecável e sem empurra-empurra.”
+— Juliana S., São Paulo (PF) ★★★★★
+
+Observação de compliance (pequena, opcional):
+*Depoimentos verificados com autorização dos clientes.
+
+========================================
+SEÇÃO — PLANOS (2 cartões)
+========================================
+Cartão: Empresarial (PJ)
+- Destaque 1: Condições por faixa de vidas
+- Destaque 2: Gestão de benefícios e apoio ao RH
+- Destaque 3: Suporte no onboarding e documentação
+- CTA: Ver detalhes
+
+Cartão: Individual (PF)
+- Destaque 1: Planos por região e faixa etária
+- Destaque 2: Ampla rede credenciada
+- Destaque 3: Sem surpresas na franquia
+- CTA: Ver detalhes
+
+[A/B TEST — CTA PLANOS]
+- Alternativas: Comparar opções | Solicitar proposta
+
+========================================
+SEÇÃO — FAQ (4–6 perguntas)
+========================================
+Q1: Como funciona a carência?
+A: A carência varia conforme operadora e tipo de plano. Ao comparar, indicamos as opções com carências mais vantajosas para o seu caso.
+
+Q2: Posso fazer portabilidade?
+A: Sim, desde que atenda aos critérios da ANS. Ajudamos a checar elegibilidade e documentação.
+
+Q3: Quais documentos preciso para contratar?
+A: Para PF: RG, CPF, comprovante de residência, e outros conforme a operadora. Para PJ: CNPJ, contrato social e documentos dos beneficiários.
+
+Q4: Como é o suporte após a venda?
+A: Você conta com atendimento humano por WhatsApp, inclusive para dúvidas de uso, reembolsos e 2ª via.
+
+Q5 (opcional): A proposta é paga?
+A: Não. A análise e a proposta são 100% gratuitas e sem compromisso.
+
+Q6 (opcional): Em quanto tempo recebo retorno?
+A: Em até 15 minutos no horário comercial.
+
+========================================
+SEÇÃO — FORMULÁRIO DE LEAD
+========================================
+Título da seção:
+Receba uma proposta personalizada
+
+Subtexto curto:
+Preencha os dados e um especialista entrará em contato.
+
+Labels dos campos:
+- Nome *
+- E-mail *
+- Telefone * (formato: (11) 98765-4321)
+- Tipo de plano * [Selecione: PF | PJ]
+- Qtde de vidas (quando PJ) — opcional/exibido apenas se selecionar PJ
+- Consentimento LGPD (checkbox) *
+  Texto: Concordo em receber contato conforme a LGPD.
+
+CTA do formulário:
+Enviar
+
+Mensagem de sucesso:
+Obrigadx! Em breve entraremos em contato.
+
+Mensagens de erro (validação):
+- Nome: Por favor, informe seu nome completo.
+- E-mail: Informe um e-mail válido.
+- Telefone: Informe um telefone válido no formato (11) 98765-4321.
+- Tipo de plano: Selecione uma opção.
+- LGPD: É necessário aceitar o consentimento para prosseguir.
+
+Microcopy de segurança (pequeno, abaixo do CTA ou do checkbox):
+Seus dados são utilizados apenas para contato comercial. Não compartilhamos informações com terceiros sem autorização.
+
+========================================
+SEÇÃO — CHAMADAS COMPLEMENTARES
+========================================
+Banner “mini-tarja” (entre seções):
+Sem custo para comparar planos • Atendimento humano • Retorno em até 15 min
+
+Bloco de reforço (antes do formulário, opcional):
+Fale com um especialista e receba uma proposta do seu jeito — sem burocracia, com total transparência.
+
+========================================
+RODAPÉ
+========================================
+Bloco institucional:
+[NOME DA EMPRESA] — Corretora e Administradora de Benefícios
+Av. Paulista, São Paulo — CNPJ 00.000.000/0001-00
+
+Contato:
+contato@empresa.com.br • (11) 0000-0000 • WhatsApp: (11) 90000-0000
+
+Direitos autorais:
+© [ANO] [NOME DA EMPRESA]. Todos os direitos reservados.
+
+Links úteis (opcionais):
+Política de Privacidade | Termos de Uso | LGPD
+
+========================================
+MICROCOPY — WHATSAPP / CTAs SECUNDÁRIOS
+========================================
+Botão flutuante WhatsApp:
+Falar no WhatsApp
+
+Tooltip (opcional):
+Atendimento humano em minutos
+
+CTA secundário (em cards/FAQ):
+Quero falar com um especialista
+
+CTA alternativo (mobile sticky):
+Comparar planos agora
+
+========================================
+COMPLIANCE / LGPD (rodapé leve ou abaixo do form)
+========================================
+Ao enviar seus dados, você concorda com nosso contato conforme a LGPD. Seus dados não serão compartilhados com terceiros sem autorização. Para saber mais, acesse nossa Política de Privacidade.
+
+========================================
+VARIAÇÕES DE COPY — TESTES RÁPIDOS
+========================================
+Hero — Headline:
+1) O plano certo, sem complicação
+2) Compare, escolha e contrate hoje
+3) Mais benefícios, menos burocracia
+
+Hero — Subheadline:
+1) Compare coberturas e preços com apoio de um especialista.
+2) Proposta personalizada com retorno em até 15 minutos.
+3) Transparência total: você escolhe, a gente cuida do resto.
+
+CTA primário:
+1) Quero comparar planos
+2) Receber proposta
+3) Falar com especialista
+
+Benefício 1 (economia):
+1) Economia real
+2) Pague menos mantendo a qualidade
+3) Reduza custos sem perder a rede
+
+Depoimento (variação curta PF):
+“Descobri a opção ideal para meu orçamento.”
+
+========================================
+PEÇA COMPLEMENTAR — BANNER SOCIAL (TEXTO)
+========================================
+Formato Feed/Quadrado (1080x1080):
+Título: Saúde com Mais Benefícios
+Sub: Compare planos PF e PJ com suporte humano.
+Selo: Atendimento em até 15 min
+CTA: Comparar planos
+Rodapé: [Logo] [URL curta] [QR code]
+
+Formato Stories/Reels (1080x1920):
+Tela 1: Título + promessa
+Tela 2: 3 benefícios (bullets)
+Tela 3: CTA + QR code para a landing
+
+========================================
+RÓTULOS DE ACESSIBILIDADE (ALT SUGERIDOS)
+========================================
+- Hero img alt: Consultor de saúde atendendo cliente com sorriso acolhedor.
+- Ícones benefícios alt: Ícone representando [economia/rede/burocracia/…].
+- Depoimentos alt: Foto ilustrativa de cliente satisfeito (se houver).
+- Banner social alt: Arte com título “Saúde com Mais Benefícios” e chamada para comparar planos.
+
+========================================
+NOTAS FINAIS
+========================================
+- Tom de voz: humano, claro e direto; evitar jargões técnicos.
+- Evitar promessas absolutas de aprovação ou cobertura; foco em orientação e comparação.
+- Manter consistência de CTA entre Header/Hero/Seções finais.
